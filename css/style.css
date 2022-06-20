@@ -5,8 +5,9 @@
 	box-sizing: border-box;
 }
 body{
-	width: auto;
+	width: 100%;
 }
+
 .hero{
 	height: 100vh;
 	background-image: url(../img/background.jpg);
@@ -16,7 +17,7 @@ body{
 nav{
 	display: flex;
 	background-color: #000;
-	position: fixed;
+	position: sticky;
 	left: 0%;
 	top: 0;
 	width: 100%;
