@@ -3,14 +3,17 @@
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
+	
 }
+
 .hero{
 	height: 100vh;
-	width: 100%;
+	max-width: 100%;
 	background-image: url(../img/background.jpg);
 	background-size: cover;
 	background-position: center;
 }
+
 nav{
 	display: flex;
 	background-color: #000;
@@ -26,12 +29,14 @@ nav{
 	padding-right: 8%;
 	padding-bottom: 10px;
 }
+
 .logo{
 	color: white;
 	font-size: 35px;
 	letter-spacing: 1px;
 	cursor: pointer;
 }
+
 span{
 	color: #f9004d;
 }
@@ -50,6 +55,7 @@ nav ul li a:hover{
 	color: #f9004d;
 	transition: .4s;
 }
+
 .btn{
 	background-color:#f9004d;
 	color: white;
@@ -60,6 +66,7 @@ nav ul li a:hover{
 	border-radius: 30px;
 	transition: transform .4s; 
 }
+
 .btn:hover{
 	transform: scale(1.2);
 }
@@ -84,6 +91,7 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 }
+
 .newslatter form{
 	width: 380px;
 	max-width: 100%;
@@ -128,7 +136,7 @@ h4{
 }
 .main{
 	width: 1130px;
-	max-width: 95%;
+	max-width: 100%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -154,6 +162,7 @@ h4{
 	font-size: 18px;
 	margin-bottom: 45px;
 }
+
 button{
 	background-color:#f9004d;
 	color: white;
@@ -182,6 +191,7 @@ button:hover{
 	margin: 30px auto;
 	text-align: center;
 }
+
 .box{
 	display: flex;
 	justify-content: center;
@@ -207,6 +217,7 @@ button:hover{
 	color: #f9004d;
 
 }
+
 h5{
 	color: white;
 	font-size: 23px;
