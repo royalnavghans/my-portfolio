@@ -19,13 +19,17 @@ html{
     text-align: center;
     text-decoration: underline;
 }
+
 .html1,.AzureCloud1,.CSS1,.Javascript1,.boots1 h3{
-    text-align: center;
+    
+   text-align: center;
+   text-decoration: underline;
 }
 .html1 h3{
     color: #f9004d;
     font-size: 20px;
     padding-left: 10px;
+    text-decoration: underline;
 }
 .html1 p{
     color: white;
@@ -33,11 +37,13 @@ html{
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 5px;
+    text-align: justify;
 }
 .CSS1 h3{
     color: #f9004d;
     font-size: 20px;
     padding-left: 10px;
+    text-decoration: underline;
 }
 .CSS1 p{
     color: white;
@@ -45,11 +51,13 @@ html{
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 5px;
+    text-align: justify;
 }
 .Javascript1 h3{
     color: #f9004d;
     font-size: 20px;
     padding-left: 10px;
+    text-decoration: underline;
 }
 .Javascript1 p{
     color: white;
@@ -57,11 +65,13 @@ html{
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 5px;
+    text-align: justify;
 }
 .AzureCloud1 h3{
     color: #f9004d;
     font-size: 20px;
     padding-left: 10px;
+    text-decoration: underline;
 }
 .AzureCloud1 p{
     color: white;
@@ -69,6 +79,7 @@ html{
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 5px;
+    text-align: justify;
     
 }
 .boots1 h3{
@@ -82,23 +93,7 @@ html{
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 5px;
+    text-align: justify;
     
 }
-
-/* responsive media query start
-@media (max-width: 991px) {
-    .AzureCloud1,.CSS1,.html1,.Javascript1,.boots1,.skills{
-        height: 250px;
-        width: 350px;
-        font-size: 25px;
-        text-align: center;
-        word-wrap: break-word;
-    }
-}
-
-@media (max-width: 991px) {
-    .max-width{
-        padding: 0 50px;
-    }
-} */
 
