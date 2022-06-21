@@ -68,10 +68,11 @@ html{
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 5px;
+    
 }
 
 /* responsive media query start */
-@media (max-width: 1104px) {
+@media (max-width: 991px) {
     .AzureCloud1,.CSS1,.html1,.Javascript1,.skills{
         height: 250px;
         width: 350px;
