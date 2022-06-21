@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     background-color:rgb(36, 36, 36);
+    word-wrap: break-word;
 }
 html{
     scroll-behavior: smooth;
@@ -18,7 +19,7 @@ html{
     text-align: center;
     text-decoration: underline;
 }
-.html1,.AzureCloud1,.CSS1,.Javascript1 h3{
+.html1,.AzureCloud1,.CSS1,.Javascript1,.boots1 h3{
     text-align: center;
 }
 .html1 h3{
@@ -70,14 +71,28 @@ html{
     padding-left: 5px;
     
 }
+.boots1 h3{
+    color: #f9004d;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.boots1 p{
+    color: white;
+    font-size: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 5px;
+    
+}
 
 /* responsive media query start */
 @media (max-width: 991px) {
-    .AzureCloud1,.CSS1,.html1,.Javascript1,.skills{
+    .AzureCloud1,.CSS1,.html1,.Javascript1,.boots1,.skills{
         height: 250px;
         width: 350px;
         font-size: 25px;
         text-align: center;
+        word-wrap: break-word;
     }
 }
 
