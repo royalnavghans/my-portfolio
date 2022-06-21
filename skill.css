@@ -23,7 +23,6 @@ html{
 .html1,.AzureCloud1,.CSS1,.Javascript1,.boots1 h3{
     
    text-align: center;
-   text-decoration: underline;
 }
 .html1 h3{
     color: #f9004d;
@@ -86,6 +85,7 @@ html{
     color: #f9004d;
     font-size: 20px;
     padding-left: 10px;
+    text-decoration: underline;
 }
 .boots1 p{
     color: white;
