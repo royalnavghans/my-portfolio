@@ -35,11 +35,11 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .projects, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
-.services .serv-content,
+.projects .serv-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -63,7 +63,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: rgb(149, 146, 146);
     transform: translateX(-50%);
 }
 section .title::after{
@@ -73,7 +73,7 @@ section .title::after{
     font-size: 20px;
     color:  #f9004d;
     padding: 0 5px;
-    background: #fff;
+    background: rgb(36, 36, 36);
     transform: translateX(-50%);
 }
 
@@ -217,6 +217,13 @@ section .title::after{
 }
 
 /* about section styling */
+.about{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+.about p{
+    color: rgb(230, 175, 230);
+}
 
 .about .title::after{
     content: "who i am";
@@ -261,21 +268,21 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
-.services, .teams{
+/* projects section styling */
+.projects, .teams{
     color:#fff;
     background: #111;
 }
-.services .title::before,
+.projects .title::before,
 .teams .title::before{
     background: #fff;
 }
-.services .title::after,
+.projects .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "what i does";
 }
-.services .serv-content .card{
+.projects .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -284,30 +291,41 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+.projects .serv-content .card:hover{
     background: #f9004d;
 }
-.services .serv-content .card .box{
+.projects .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.projects .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.projects .serv-content .card i{
     font-size: 50px;
     color: #f9004d;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.projects .serv-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.projects .serv-content .card .text{
+    color: #f9004d;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.projects .serv-content .card .text:hover{
+    color: white;
+}
 
 /* skills section styling */
+.skills{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+.skills p{
+    color: rgb(223, 181, 223);
+}
 
 .skills .title::after{
     content: "what i know";
@@ -370,15 +388,15 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .php::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .cloud::before{
+    width: 75%;
+}
+.skills-content .right .videograph::before{
     width: 70%;
 }
 
@@ -446,6 +464,13 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact{
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+.contact p{
+    color: rgb(207, 115, 207);
+}
 .contact .title::after{
     content: "get in touch";
 }
@@ -479,7 +504,7 @@ section .title::after{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: rgb(228, 215, 215);
 }
 .contact .right form .fields{
     display: flex;
@@ -623,7 +648,7 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .services .serv-content .card{
+    .projects .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -647,7 +672,7 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .services .serv-content .card{
+    .projects .serv-content .card{
         width: 100%;
     }
 }
