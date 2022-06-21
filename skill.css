@@ -85,7 +85,7 @@ html{
     
 }
 
-/* responsive media query start */
+/* responsive media query start
 @media (max-width: 991px) {
     .AzureCloud1,.CSS1,.html1,.Javascript1,.boots1,.skills{
         height: 250px;
@@ -100,5 +100,5 @@ html{
     .max-width{
         padding: 0 50px;
     }
-}
+} */
 
