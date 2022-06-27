@@ -181,6 +181,7 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
+    color: rgb(223, 181, 223);
     font-size: 27px;
 }
 .home .home-content .text-2{
@@ -323,6 +324,7 @@ section .title::after{
     background-color: rgb(36, 36, 36);
     color: white;
 }
+
 .skills p{
     color: rgb(223, 181, 223);
 }
@@ -335,6 +337,7 @@ section .title::after{
 }
 .skills .skills-content .left .text{
     font-size: 20px;
+    color: rgb(164, 160, 164);
     font-weight: 600;
     margin-bottom: 10px;
 }
