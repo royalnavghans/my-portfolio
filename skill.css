@@ -30,7 +30,7 @@ html{
     padding-left: 10px;
     text-decoration: underline;
 }
-.html1 p{
+.html1 p {
     color: white;
     font-size: 15px;
     padding-bottom: 15px;
@@ -38,6 +38,9 @@ html{
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
+}
+.html1 p strong{
+    color: rgb(230, 175, 230);
 }
 .CSS1 h3{
     color: #f9004d;
@@ -54,6 +57,9 @@ html{
     padding-right: 20px;
     text-align: justify;
 }
+.CSS1 p strong{
+    color: rgb(230, 175, 230);
+}
 .Javascript1 h3{
     color: #f9004d;
     font-size: 20px;
@@ -69,6 +75,7 @@ html{
     padding-right: 20px;
     text-align: justify;
 }
+
 .AzureCloud1 h3{
     color: #f9004d;
     font-size: 20px;
@@ -85,6 +92,9 @@ html{
     text-align: justify;
     
 }
+.AzureCloud1 p strong{
+    color: rgb(230, 175, 230);
+}
 .boots1 h3{
     color: #f9004d;
     font-size: 20px;
@@ -100,5 +110,8 @@ html{
     padding-right: 20px;
     text-align: justify;
     
+}
+.boots1 p strong{
+    color: rgb(230, 175, 230);
 }
 
