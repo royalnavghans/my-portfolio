@@ -395,7 +395,7 @@ section .title::after{
     width: 70%;
 }
 .skills-content .right .js::before{
-    width: 50%;
+    width: 30%;
 }
 .skills-content .right .cloud::before{
     width: 75%;
@@ -406,7 +406,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "What I did";
 }
 .teams .carousel .card{
     background: #222;
