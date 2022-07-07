@@ -48,7 +48,6 @@ $(document).ready(function(){
         loop: true
     });
 
-    // contact form
 
     // owl carousel script
     $('.carousel').owlCarousel({
