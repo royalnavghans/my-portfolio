@@ -395,7 +395,7 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .js::before{
-    width: 30%;
+    width: 50%;
 }
 .skills-content .right .cloud::before{
     width: 75%;
