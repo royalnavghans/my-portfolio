@@ -35,11 +35,12 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .Things, .skills, .teams, .contact, footer{
+.about, .Things, .Hobbies, .skills, .Projects, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .Things .serv-content,
+.Hobbies .serv-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -270,16 +271,16 @@ section .title::after{
 }
 
 /* Things section styling */
-.Things, .teams{
+.Things, .Projects{
     color:#fff;
     background: #111;
 }
 .Things .title::before,
-.teams .title::before{
+.Projects .title::before{
     background: rgb(152, 150, 150);
 }
 .Things .title::after,
-.teams .title::after{
+.Projects .title::after{
     background: #111;
     content: "what I do for you";
 }
@@ -316,6 +317,60 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 .Things .serv-content .card .text:hover{
+    color: white;
+}
+
+
+/* Hobbies section styling */
+.Projects{
+    color:#fff;
+    background: rgb(19, 19, 19);
+}
+.Hobbies{
+    color:#fff;
+    background: rgb(26, 26, 26);
+}
+.Hobbies .title::before,
+.Projects .title::before{
+    background: rgb(152, 150, 150);
+}
+.Projects .title::after{
+    background: #111;
+    content: "what I do for you";
+}
+.Hobbies .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Hobbies .serv-content .card:hover{
+    background: #f9004d;
+}
+.Hobbies .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.Hobbies .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.Hobbies .serv-content .card i{
+    font-size: 50px;
+    color: #f9004d;
+    transition: color 0.3s ease;
+}
+.Hobbies .serv-content .card:hover i{
+    color: #fff;
+}
+.Hobbies .serv-content .card .text, a{
+    color: #f9004d;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0 7px 0;
+}
+.Hobbies .serv-content .card .text:hover{
     color: white;
 }
 
@@ -416,11 +471,11 @@ section .title::after{
     width: 50%;
 }
 
-/* teams section styling */
-.teams .title::after{
+/* Projects section styling */
+.Projects .title::after{
     content: "What I did";
 }
-.teams .carousel .card{
+.Projects .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -428,27 +483,27 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.Projects .carousel .card:hover{
     background: #f9004d;
     
 }
-.teams .carousel .card .box{
+.Projects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.Projects .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.Projects .carousel .card .text{
     font-size: 25px;
     color: rgb(230, 175, 230);
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.Projects .carousel .card img{
     height: 140px;
     width: 140px;
     object-fit: cover;
@@ -456,7 +511,7 @@ section .title::after{
     border: 5px solid #f9004d;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.Projects .carousel .card:hover img{
     border-color: rgb(230, 175, 230);
 }
 .owl-dots{
