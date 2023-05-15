@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Full Stack Developer", "Cloud Administrator","Technical/Cloud Supporter","Videographer", "Youtuber"],
+        strings: ["Full/Mern Stack Developer", "Cloud Administrator","Technical/Cloud Supporter","Videographer", "Youtuber"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Full Stack Developer", "Cloud Administrator", "Technical/Cloud Supporter","Videographer", "Youtuber"],
+        strings: ["Full/Mern Stack Developer", "Cloud Administrator", "Technical/Cloud Supporter","Videographer", "Youtuber"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -72,3 +72,35 @@ $(document).ready(function(){
         }
     });
 });
+
+function SendMail(){
+    var params={
+        from_name : document.getElementById("name").value,
+        email_id : document.getElementById("email").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value
+    }
+    emailjs.send("service_7kgw8ol","template_gd5e2vg",params).then(function(res){
+        alert("Success!!"+res.status);
+    })
+}
+// const btn = document.getElementById('button');
+
+// document.getElementById('form')
+//  .addEventListener('submit', function(event) {
+//    event.preventDefault();
+
+//    btn.value = 'Sending...';
+
+//    const serviceID = 'service_7kgw8ol';
+//    const templateID = 'template_gd5e2vg';
+
+//    emailjs.sendForm(serviceID, templateID, this)
+//     .then(() => {
+//       btn.value = 'Send Email';
+//       alert('Sent!');
+//     }, (err) => {
+//       btn.value = 'Send Email';
+//       alert(JSON.stringify(err));
+//     });
+// });

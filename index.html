@@ -296,7 +296,7 @@
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title">Sriharivishnu</div>
+                                <div class="sub-title">Sriharivishnu Janakiraman</div>
                             </div>
                         </div>
                         <div class="row">
@@ -310,7 +310,7 @@
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title">sriharivishnu1998@gmail.com</div>
+                                <div class="sub-title">j.sriharivishnu@gmail.com</div>
                             </div>
                         </div>
                         <div class="row">
@@ -324,7 +324,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="https://formsubmit.co/14e45849d71faea1661bbaeada269064" method="POST">
+                    <form id="form" >
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" id="name" placeholder="Name" required>
@@ -340,7 +340,7 @@
                             <textarea id="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button  onclick="SendMail()">Send message</button>
                         </div>
                     </form>
                 </div>
@@ -350,11 +350,19 @@
 
     <!-- footer section start -->
     <footer>
-        <span>Created By <a href="#">sriharivishnu janakiraman</a> | <span class="far fa-copyright"></span> 2021 All
+        <span>Created By <a href="#">Sriharivishnu Janakiraman</a> | <span class="far fa-copyright"></span> 2023 All
             rights reserved.</span>
     </footer>
 
     <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("se8aVibRSKzwk_djO");
+   })();
+</script>
 </body>
 
 </html>
