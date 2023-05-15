@@ -81,7 +81,13 @@ function SendMail(){
         message : document.getElementById("message").value
     }
     emailjs.send("service_7kgw8ol","template_gd5e2vg",params).then(function(res){
-        alert("Form Sent Successfully !!");
+        var button=document.getElementById("button");
+        button.innerHTML="Sending";  
+        if(res.status==200){
+            setTimeout(function(){
+                button.innerHTML="Sent Successfully!!"
+            },1000)
+        }
     })
 }
 // const btn = document.getElementById('button');
